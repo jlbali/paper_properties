@@ -3,7 +3,7 @@ Code for the Paper
 
 All the procedures are implemented in the src_2_eng.py Python file. This was executed in a Python 3.11 environment, with all the dependencies that should be installed via pip specified in the requirements.txt file.
 
-## Input requirements
+## Input requirements for properties posting
 
 This was executed with a Madrid dataset of properties. The required columns in the dataframe file are:
 
@@ -33,12 +33,15 @@ This was executed with a Madrid dataset of properties. The required columns in t
 
 - "floor_int": floor number.
 
+Any changes regarding clustering feature should be accordingly adjusted in the construct_clusters function.
+
 
 We also need an ESRI Shapefile of the city neighbours.
 
 Finally, the code should be adapted in the first lines to include neighboring cities of the main hub, in this case Madrid, including economic data for each neighborhood as needed for the income analysis.
 
+## Income Handling.
 
-
+The function income_handling should be adapted to the specific demographic excel file provided for the city that should be analyzed. Informationg regarding income for persons and/or families should be provided.
 
 
