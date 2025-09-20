@@ -23,23 +23,15 @@ This was executed with a Madrid dataset of properties. The required columns in t
 
 - "storage": categorical variable to specify presence of a storage.
 
-- 
-  "bedrooms",
-        "bathrooms",
-        "lift",
-        "garage",
-        "storage",
-        "terrace",
-        "air_conditioning",
-        "swimming_pool",
-        "garden",
-        "sports",
-        # "status",
-        # "new_construction",
-        "rating_leads",
-        "rating_visits",
-        "floor_int",
+- "terrace": categorical variable to specify presence of a terrace.
 
+- "air_conditioning": categorical variable to specify presence of an air conditioner.
+
+- "swimming_pool": categorical variable to specify presence of a swimming pool.
+
+- "garden": categorical variable to specify presence of a garden.
+
+- "floor_int": floor number.
 
 
 We also need an ESRI Shapefile of the city neighbours.
