@@ -3,6 +3,10 @@ Code for the Paper
 
 All the procedures are implemented in the src_2_eng.py Python file. This was executed in a Python 3.11 environment, with all the dependencies that should be installed via pip specified in the requirements.txt file.
 
+Each function takes as an input some paths to a file, that may be an excel file, an ESRI Shapefile or a Python pickle, depending the case. As an output, usually a pickle file is generated that should be an input for another function.
+
+An example of how to run this procedure in our paper situation in Madrid is provided in the Jupyter Notebook Ciclo-English.ipynb. 
+
 ## Input requirements for properties posting
 
 This was executed with a Madrid dataset of properties. The required columns in the dataframe file are:
